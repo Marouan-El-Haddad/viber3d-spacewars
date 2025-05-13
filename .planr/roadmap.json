@@ -1,0 +1,245 @@
+[
+	{
+		"id": "US-001",
+		"title": "Game Launch",
+		"file": ".planr/stories/US-001.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Initial setup for game launch and main menu implementation"
+	},
+	{
+		"id": "US-002",
+		"title": "Game Start",
+		"file": ".planr/stories/US-002.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game initialization and initial setup"
+	},
+	{
+		"id": "US-003",
+		"title": "Basic Ship Movement",
+		"file": ".planr/stories/US-003.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements core ship movement mechanics with inertial physics"
+	},
+	{
+		"id": "US-004",
+		"title": "Forward Movement",
+		"file": ".planr/stories/US-004.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements forward ship movement with W key, including acceleration physics"
+	},
+	{
+		"id": "US-005",
+		"title": "Backward Movement",
+		"file": ".planr/stories/US-005.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements backward ship movement with S key, including deceleration mechanics"
+	},
+	{
+		"id": "US-006",
+		"title": "Ship Strafing - Left",
+		"file": ".planr/stories/US-006.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements lateral left movement with A key while maintaining ship orientation"
+	},
+	{
+		"id": "US-007",
+		"title": "Ship Strafing - Right",
+		"file": ".planr/stories/US-007.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements lateral right movement with D key while maintaining ship orientation"
+	},
+	{
+		"id": "US-008",
+		"title": "Speed Boost",
+		"file": ".planr/stories/US-008.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements temporary speed boost with Spacebar for rapid movement"
+	},
+	{
+		"id": "US-009",
+		"title": "Mouse-Controlled Aiming",
+		"file": ".planr/stories/US-009.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements precise aiming system using mouse control with visual targeting feedback"
+	},
+	{
+		"id": "US-010",
+		"title": "Firing Laser Weapons",
+		"file": ".planr/stories/US-010.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements laser weapon system with left mouse click and visual/audio feedback"
+	},
+	{
+		"id": "US-011",
+		"title": "Hitting Enemy Ships",
+		"file": ".planr/stories/US-011.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements collision detection and damage system for enemy ships with scoring"
+	},
+	{
+		"id": "US-012",
+		"title": "Enemy Ship Behavior",
+		"file": ".planr/stories/US-012.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements AI behaviors for enemy ships with distinctive movement and attack patterns"
+	},
+	{
+		"id": "US-013",
+		"title": "Asteroid Field Navigation",
+		"file": ".planr/stories/US-013.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements asteroid field environment with physics-based movement and collisions"
+	},
+	{
+		"id": "US-014",
+		"title": "Ship Collision with Asteroids",
+		"file": ".planr/stories/US-014.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements ship damage system for asteroid collisions with visual and audio feedback"
+	},
+	{
+		"id": "US-015",
+		"title": "Laser Interaction with Asteroids",
+		"file": ".planr/stories/US-015.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements asteroid destruction mechanics with laser weapons and scoring system"
+	},
+	{
+		"id": "US-016",
+		"title": "Health Indicator Display",
+		"file": ".planr/stories/US-016.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements player health UI display with real-time updates and visual feedback"
+	},
+	{
+		"id": "US-017",
+		"title": "Score Counter Display",
+		"file": ".planr/stories/US-017.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements score tracking UI with real-time updates and milestone notifications"
+	},
+	{
+		"id": "US-018",
+		"title": "Game Over Screen",
+		"file": ".planr/stories/US-018.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game over screen with final score and restart options"
+	},
+	{
+		"id": "US-019",
+		"title": "Inertial Ship Movement",
+		"file": ".planr/stories/US-019.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements realistic space physics with momentum preservation and inertial movement"
+	},
+	{
+		"id": "US-020",
+		"title": "Projectile Physics",
+		"file": ".planr/stories/US-020.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements consistent laser projectile physics for predictable and skill-based targeting"
+	},
+	{
+		"id": "US-021",
+		"title": "Level Progression",
+		"file": ".planr/stories/US-021.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements difficulty progression system with new challenges at higher levels"
+	},
+	{
+		"id": "US-022",
+		"title": "Game Completion",
+		"file": ".planr/stories/US-022.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game completion recognition with statistics and achievement tracking"
+	},
+	{
+		"id": "US-023",
+		"title": "Pause Functionality",
+		"file": ".planr/stories/US-023.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game pause system with menu options and state preservation"
+	},
+	{
+		"id": "US-024",
+		"title": "Options Configuration",
+		"file": ".planr/stories/US-024.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game options menu with customizable settings and persistence"
+	},
+	{
+		"id": "US-025",
+		"title": "Ship Destruction",
+		"file": ".planr/stories/US-025.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements player ship destruction sequence and game over state transition"
+	},
+	{
+		"id": "US-026",
+		"title": "Player Authentication",
+		"file": ".planr/stories/US-026.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements player account system with secure login and data persistence"
+	},
+	{
+		"id": "US-027",
+		"title": "Score Saving",
+		"file": ".planr/stories/US-027.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements high score saving and display with persistence between sessions"
+	}
+]
