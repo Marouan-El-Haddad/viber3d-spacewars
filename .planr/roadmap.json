@@ -19,48 +19,21 @@
 	},
 	{
 		"id": "US-003",
-		"title": "Basic Ship Movement",
+		"title": "Ship Movement System",
 		"file": ".planr/stories/US-003.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements core ship movement mechanics with inertial physics"
+		"updated": "2025-05-13",
+		"notes": "Implements core ship physics with realistic inertial movement"
 	},
 	{
 		"id": "US-004",
-		"title": "Forward Movement",
+		"title": "Directional Controls",
 		"file": ".planr/stories/US-004.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements forward ship movement with W key, including acceleration physics"
-	},
-	{
-		"id": "US-005",
-		"title": "Backward Movement",
-		"file": ".planr/stories/US-005.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements backward ship movement with S key, including deceleration mechanics"
-	},
-	{
-		"id": "US-006",
-		"title": "Ship Strafing - Left",
-		"file": ".planr/stories/US-006.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements lateral left movement with A key while maintaining ship orientation"
-	},
-	{
-		"id": "US-007",
-		"title": "Ship Strafing - Right",
-		"file": ".planr/stories/US-007.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements lateral right movement with D key while maintaining ship orientation"
+		"updated": "2025-05-13",
+		"notes": "Implements full WASD directional control with visual/audio feedback"
 	},
 	{
 		"id": "US-008",
@@ -79,6 +52,15 @@
 		"created": "2025-05-11",
 		"updated": "2025-05-11",
 		"notes": "Implements precise aiming system using mouse control with visual targeting feedback"
+	},
+	{
+		"id": "US-020",
+		"title": "Projectile Physics",
+		"file": ".planr/stories/US-020.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements consistent laser projectile physics for predictable and skill-based targeting"
 	},
 	{
 		"id": "US-010",
@@ -154,48 +136,12 @@
 	},
 	{
 		"id": "US-018",
-		"title": "Game Over Screen",
+		"title": "Ship Destruction and Game Over",
 		"file": ".planr/stories/US-018.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game over screen with final score and restart options"
-	},
-	{
-		"id": "US-019",
-		"title": "Inertial Ship Movement",
-		"file": ".planr/stories/US-019.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements realistic space physics with momentum preservation and inertial movement"
-	},
-	{
-		"id": "US-020",
-		"title": "Projectile Physics",
-		"file": ".planr/stories/US-020.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements consistent laser projectile physics for predictable and skill-based targeting"
-	},
-	{
-		"id": "US-021",
-		"title": "Level Progression",
-		"file": ".planr/stories/US-021.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements difficulty progression system with new challenges at higher levels"
-	},
-	{
-		"id": "US-022",
-		"title": "Game Completion",
-		"file": ".planr/stories/US-022.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game completion recognition with statistics and achievement tracking"
+		"updated": "2025-05-13",
+		"notes": "Implements ship destruction sequence and game over screen with restart options"
 	},
 	{
 		"id": "US-023",
@@ -216,13 +162,22 @@
 		"notes": "Implements game options menu with customizable settings and persistence"
 	},
 	{
-		"id": "US-025",
-		"title": "Ship Destruction",
-		"file": ".planr/stories/US-025.md",
+		"id": "US-021",
+		"title": "Level Progression",
+		"file": ".planr/stories/US-021.md",
 		"status": "todo",
 		"created": "2025-05-11",
 		"updated": "2025-05-11",
-		"notes": "Implements player ship destruction sequence and game over state transition"
+		"notes": "Implements difficulty progression system with new challenges at higher levels"
+	},
+	{
+		"id": "US-022",
+		"title": "Game Completion",
+		"file": ".planr/stories/US-022.md",
+		"status": "todo",
+		"created": "2025-05-11",
+		"updated": "2025-05-11",
+		"notes": "Implements game completion recognition with statistics and achievement tracking"
 	},
 	{
 		"id": "US-026",
@@ -241,5 +196,50 @@
 		"created": "2025-05-11",
 		"updated": "2025-05-11",
 		"notes": "Implements high score saving and display with persistence between sessions"
+	},
+	{
+		"id": "US-005",
+		"title": "Backward Movement",
+		"file": ".planr/stories/US-005.md",
+		"status": "deprecated",
+		"created": "2025-05-11",
+		"updated": "2025-05-13",
+		"notes": "Consolidated into US-004 Directional Controls"
+	},
+	{
+		"id": "US-006",
+		"title": "Ship Strafing - Left",
+		"file": ".planr/stories/US-006.md",
+		"status": "deprecated",
+		"created": "2025-05-11",
+		"updated": "2025-05-13",
+		"notes": "Consolidated into US-004 Directional Controls"
+	},
+	{
+		"id": "US-007",
+		"title": "Ship Strafing - Right",
+		"file": ".planr/stories/US-007.md",
+		"status": "deprecated",
+		"created": "2025-05-11",
+		"updated": "2025-05-13",
+		"notes": "Consolidated into US-004 Directional Controls"
+	},
+	{
+		"id": "US-019",
+		"title": "Inertial Ship Movement",
+		"file": ".planr/stories/US-019.md",
+		"status": "deprecated",
+		"created": "2025-05-11",
+		"updated": "2025-05-13",
+		"notes": "Consolidated into US-003 Ship Movement System"
+	},
+	{
+		"id": "US-025",
+		"title": "Ship Destruction",
+		"file": ".planr/stories/US-025.md",
+		"status": "deprecated",
+		"created": "2025-05-11",
+		"updated": "2025-05-13",
+		"notes": "Consolidated into US-018 Ship Destruction and Game Over"
 	}
 ]
