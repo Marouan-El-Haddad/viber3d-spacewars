@@ -1,21 +1,12 @@
 [
 	{
 		"id": "US-001",
-		"title": "Game Launch",
+		"title": "Game Initialization",
 		"file": ".planr/stories/US-001.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Initial setup for game launch and main menu implementation"
-	},
-	{
-		"id": "US-002",
-		"title": "Game Start",
-		"file": ".planr/stories/US-002.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game initialization and initial setup"
+		"updated": "2025-05-13",
+		"notes": "Basic game scene setup and initialization"
 	},
 	{
 		"id": "US-003",
@@ -54,22 +45,13 @@
 		"notes": "Implements precise aiming system using mouse control with visual targeting feedback"
 	},
 	{
-		"id": "US-020",
-		"title": "Projectile Physics",
-		"file": ".planr/stories/US-020.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements consistent laser projectile physics for predictable and skill-based targeting"
-	},
-	{
 		"id": "US-010",
-		"title": "Firing Laser Weapons",
+		"title": "Weapon System",
 		"file": ".planr/stories/US-010.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements laser weapon system with left mouse click and visual/audio feedback"
+		"updated": "2025-05-13",
+		"notes": "Implements laser weapon system with projectile physics and firing mechanics"
 	},
 	{
 		"id": "US-011",
@@ -86,8 +68,8 @@
 		"file": ".planr/stories/US-012.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements AI behaviors for enemy ships with distinctive movement and attack patterns"
+		"updated": "2025-05-13",
+		"notes": "Implements basic AI behaviors for enemy ships with movement and attack patterns"
 	},
 	{
 		"id": "US-013",
@@ -145,56 +127,11 @@
 	},
 	{
 		"id": "US-023",
-		"title": "Pause Functionality",
+		"title": "Basic Pause Functionality",
 		"file": ".planr/stories/US-023.md",
 		"status": "todo",
 		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game pause system with menu options and state preservation"
-	},
-	{
-		"id": "US-024",
-		"title": "Options Configuration",
-		"file": ".planr/stories/US-024.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game options menu with customizable settings and persistence"
-	},
-	{
-		"id": "US-021",
-		"title": "Level Progression",
-		"file": ".planr/stories/US-021.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements difficulty progression system with new challenges at higher levels"
-	},
-	{
-		"id": "US-022",
-		"title": "Game Completion",
-		"file": ".planr/stories/US-022.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements game completion recognition with statistics and achievement tracking"
-	},
-	{
-		"id": "US-026",
-		"title": "Player Authentication",
-		"file": ".planr/stories/US-026.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements player account system with secure login and data persistence"
-	},
-	{
-		"id": "US-027",
-		"title": "Score Saving",
-		"file": ".planr/stories/US-027.md",
-		"status": "todo",
-		"created": "2025-05-11",
-		"updated": "2025-05-11",
-		"notes": "Implements high score saving and display with persistence between sessions"
+		"updated": "2025-05-13",
+		"notes": "Implements simple game pause with single key press"
 	}
 ]
